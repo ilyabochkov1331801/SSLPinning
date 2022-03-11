@@ -14,5 +14,8 @@ let package = Package(
         .target(
             name: "PinningCore",
             path: "PinningCore/Sources"),
+        sources: [
+            "TestFile.swift"
+        ]
     ]
 )
