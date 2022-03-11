@@ -13,9 +13,6 @@ let package = Package(
     targets: [
         .target(
             name: "PinningCore",
-            path: "./PinningCore/Sources"),
-        .testTarget(
-            name: "PinningCoreTests",
-            dependencies: ["PinningCore"]),
+            path: "PinningCore/Sources"),
     ]
 )
