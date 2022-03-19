@@ -5,10 +5,10 @@ import PackageDescription
 let package = Package(
     name: "SSLPinning",
     products: [
-        .library(name: "SSLPinning", targets: ["SSLPinning"]),
+        .library(name: "SSLPinning", targets: ["Core"]),
     ],
 
     targets: [
-        .target(name: "SSLPinning", path: "SSLPinning/Core", exclude: ["Info.plist", "PinningCore.h"]),
+        .target(name: "Core", path: "SSLPinning/Core", exclude: ["Info.plist", "SSLPinning.h"]),
     ]
 )
