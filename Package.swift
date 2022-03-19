@@ -9,6 +9,6 @@ let package = Package(
     ],
 
     targets: [
-        .target(name: "PinningCore", path: "PinningCore/Sources"),
+        .target(name: "PinningCore", path: "PinningCore", exclude: ["Info.plist", "PinningCore.h"]),
     ]
 )
