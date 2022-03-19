@@ -66,7 +66,7 @@
 			children = (
 				9DC33CF327E5FD1E0043C9DB /* Package.swift */,
 				9DC33CEB27E5FCEE0043C9DB /* Example.xcodeproj */,
-				9DC33C6127E5FB270043C9DB /* SSLPinning */,
+				9DC33C6127E5FB270043C9DB /* Core */,
 				9DC33C6C27E5FB270043C9DB /* SSLPinningTests */,
 				9DC33C6027E5FB270043C9DB /* Products */,
 			);
@@ -81,14 +81,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9DC33C6127E5FB270043C9DB /* SSLPinning */ = {
+		9DC33C6127E5FB270043C9DB /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				9DC33C6227E5FB270043C9DB /* SSLPinning.h */,
 				9DC33C6327E5FB270043C9DB /* Info.plist */,
 				9DC33CF127E5FD040043C9DB /* TestFile.swift */,
 			);
-			path = SSLPinning;
+			path = Core;
 			sourceTree = "<group>";
 		};
 		9DC33C6C27E5FB270043C9DB /* SSLPinningTests */ = {
