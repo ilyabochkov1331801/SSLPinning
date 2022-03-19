@@ -7,121 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9DF55C1927DBA9E20071EFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF55C1827DBA9E20071EFC0 /* AppDelegate.swift */; };
-		9DF55C1B27DBA9E20071EFC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF55C1A27DBA9E20071EFC0 /* SceneDelegate.swift */; };
-		9DF55C1D27DBA9E20071EFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF55C1C27DBA9E20071EFC0 /* ViewController.swift */; };
-		9DF55C2027DBA9E20071EFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF55C1E27DBA9E20071EFC0 /* Main.storyboard */; };
-		9DF55C2227DBA9E30071EFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF55C2127DBA9E30071EFC0 /* Assets.xcassets */; };
-		9DF55C2527DBA9E30071EFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF55C2327DBA9E30071EFC0 /* LaunchScreen.storyboard */; };
+		9DC33C6927E5FB270043C9DB /* SSLPinning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC33C5F27E5FB270043C9DB /* SSLPinning.framework */; };
+		9DC33C6E27E5FB270043C9DB /* SSLPinningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC33C6D27E5FB270043C9DB /* SSLPinningTests.swift */; };
+		9DC33C7027E5FB270043C9DB /* SSLPinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC33C6227E5FB270043C9DB /* SSLPinning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC33CF227E5FD040043C9DB /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC33CF127E5FD040043C9DB /* TestFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9DF55C3D27DBACB70071EFC0 /* PBXContainerItemProxy */ = {
+		9DC33C6A27E5FB270043C9DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9DF55C0D27DBA9E20071EFC0 /* Project object */;
+			containerPortal = 9DC33C5627E5FB270043C9DB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9DF55C1427DBA9E20071EFC0;
+			remoteGlobalIDString = 9DC33C5E27E5FB270043C9DB;
 			remoteInfo = SSLPinning;
+		};
+		9DC33CEF27E5FCEE0043C9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC33CEB27E5FCEE0043C9DB /* Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DC33CD427E5FCED0043C9DB;
+			remoteInfo = Example;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		9DF55C4B27DBACB70071EFC0 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		9DF55C1527DBA9E20071EFC0 /* SSLPinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLPinning.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DF55C1827DBA9E20071EFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DF55C1A27DBA9E20071EFC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DF55C1C27DBA9E20071EFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9DF55C1F27DBA9E20071EFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9DF55C2127DBA9E30071EFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9DF55C2427DBA9E30071EFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9DF55C2627DBA9E30071EFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DF55C3927DBACB70071EFC0 /* PinningCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinningCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DF55C5227DBAF750071EFC0 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		9DF55C5327DBB3C30071EFC0 /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
+		9DC33C5F27E5FB270043C9DB /* SSLPinning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSLPinning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC33C6227E5FB270043C9DB /* SSLPinning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLPinning.h; sourceTree = "<group>"; };
+		9DC33C6327E5FB270043C9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC33C6827E5FB270043C9DB /* SSLPinningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLPinningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC33C6D27E5FB270043C9DB /* SSLPinningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLPinningTests.swift; sourceTree = "<group>"; };
+		9DC33C6F27E5FB270043C9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC33CEB27E5FCEE0043C9DB /* Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Example.xcodeproj; path = ../Example/Example.xcodeproj; sourceTree = "<group>"; };
+		9DC33CF127E5FD040043C9DB /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
+		9DC33CF327E5FD1E0043C9DB /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9DF55C1227DBA9E20071EFC0 /* Frameworks */ = {
+		9DC33C5C27E5FB270043C9DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DF55C3627DBACB70071EFC0 /* Frameworks */ = {
+		9DC33C6527E5FB270043C9DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC33C6927E5FB270043C9DB /* SSLPinning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9DF55C0C27DBA9E20071EFC0 = {
+		9DC33C5527E5FB270043C9DB = {
 			isa = PBXGroup;
 			children = (
-				9DF55C5227DBAF750071EFC0 /* Package.swift */,
-				9DF55C1727DBA9E20071EFC0 /* SSLPinning */,
-				9DF55C4F27DBAD030071EFC0 /* Sources */,
-				9DF55C1627DBA9E20071EFC0 /* Products */,
+				9DC33CF327E5FD1E0043C9DB /* Package.swift */,
+				9DC33CEB27E5FCEE0043C9DB /* Example.xcodeproj */,
+				9DC33C6127E5FB270043C9DB /* SSLPinning */,
+				9DC33C6C27E5FB270043C9DB /* SSLPinningTests */,
+				9DC33C6027E5FB270043C9DB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9DF55C1627DBA9E20071EFC0 /* Products */ = {
+		9DC33C6027E5FB270043C9DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DF55C1527DBA9E20071EFC0 /* SSLPinning.app */,
-				9DF55C3927DBACB70071EFC0 /* PinningCoreTests.xctest */,
+				9DC33C5F27E5FB270043C9DB /* SSLPinning.framework */,
+				9DC33C6827E5FB270043C9DB /* SSLPinningTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9DF55C1727DBA9E20071EFC0 /* SSLPinning */ = {
+		9DC33C6127E5FB270043C9DB /* SSLPinning */ = {
 			isa = PBXGroup;
 			children = (
-				9DF55C1827DBA9E20071EFC0 /* AppDelegate.swift */,
-				9DF55C1A27DBA9E20071EFC0 /* SceneDelegate.swift */,
-				9DF55C1C27DBA9E20071EFC0 /* ViewController.swift */,
-				9DF55C1E27DBA9E20071EFC0 /* Main.storyboard */,
-				9DF55C2127DBA9E30071EFC0 /* Assets.xcassets */,
-				9DF55C2327DBA9E30071EFC0 /* LaunchScreen.storyboard */,
-				9DF55C2627DBA9E30071EFC0 /* Info.plist */,
+				9DC33C6227E5FB270043C9DB /* SSLPinning.h */,
+				9DC33C6327E5FB270043C9DB /* Info.plist */,
+				9DC33CF127E5FD040043C9DB /* TestFile.swift */,
 			);
 			path = SSLPinning;
 			sourceTree = "<group>";
 		};
-		9DF55C4F27DBAD030071EFC0 /* Sources */ = {
+		9DC33C6C27E5FB270043C9DB /* SSLPinningTests */ = {
 			isa = PBXGroup;
 			children = (
-				9DF55C5327DBB3C30071EFC0 /* TestFile.swift */,
+				9DC33C6D27E5FB270043C9DB /* SSLPinningTests.swift */,
+				9DC33C6F27E5FB270043C9DB /* Info.plist */,
 			);
-			path = Sources;
+			path = SSLPinningTests;
+			sourceTree = "<group>";
+		};
+		9DC33CEC27E5FCEE0043C9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC33CF027E5FCEE0043C9DB /* Example.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9DC33C5A27E5FB270043C9DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC33C7027E5FB270043C9DB /* SSLPinning.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		9DF55C1427DBA9E20071EFC0 /* SSLPinning */ = {
+		9DC33C5E27E5FB270043C9DB /* SSLPinning */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DF55C2927DBA9E30071EFC0 /* Build configuration list for PBXNativeTarget "SSLPinning" */;
+			buildConfigurationList = 9DC33C7327E5FB270043C9DB /* Build configuration list for PBXNativeTarget "SSLPinning" */;
 			buildPhases = (
-				9DF55C1127DBA9E20071EFC0 /* Sources */,
-				9DF55C1227DBA9E20071EFC0 /* Frameworks */,
-				9DF55C1327DBA9E20071EFC0 /* Resources */,
-				9DF55C4B27DBACB70071EFC0 /* Embed Frameworks */,
+				9DC33C5A27E5FB270043C9DB /* Headers */,
+				9DC33C5B27E5FB270043C9DB /* Sources */,
+				9DC33C5C27E5FB270043C9DB /* Frameworks */,
+				9DC33C5D27E5FB270043C9DB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,46 +137,46 @@
 			);
 			name = SSLPinning;
 			productName = SSLPinning;
-			productReference = 9DF55C1527DBA9E20071EFC0 /* SSLPinning.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 9DC33C5F27E5FB270043C9DB /* SSLPinning.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		9DF55C3827DBACB70071EFC0 /* PinningCoreTests */ = {
+		9DC33C6727E5FB270043C9DB /* SSLPinningTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DF55C4C27DBACB70071EFC0 /* Build configuration list for PBXNativeTarget "PinningCoreTests" */;
+			buildConfigurationList = 9DC33C7627E5FB270043C9DB /* Build configuration list for PBXNativeTarget "SSLPinningTests" */;
 			buildPhases = (
-				9DF55C3527DBACB70071EFC0 /* Sources */,
-				9DF55C3627DBACB70071EFC0 /* Frameworks */,
-				9DF55C3727DBACB70071EFC0 /* Resources */,
+				9DC33C6427E5FB270043C9DB /* Sources */,
+				9DC33C6527E5FB270043C9DB /* Frameworks */,
+				9DC33C6627E5FB270043C9DB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9DF55C3E27DBACB70071EFC0 /* PBXTargetDependency */,
+				9DC33C6B27E5FB270043C9DB /* PBXTargetDependency */,
 			);
-			name = PinningCoreTests;
-			productName = PinningCoreTests;
-			productReference = 9DF55C3927DBACB70071EFC0 /* PinningCoreTests.xctest */;
+			name = SSLPinningTests;
+			productName = SSLPinningTests;
+			productReference = 9DC33C6827E5FB270043C9DB /* SSLPinningTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9DF55C0D27DBA9E20071EFC0 /* Project object */ = {
+		9DC33C5627E5FB270043C9DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					9DF55C1427DBA9E20071EFC0 = {
+					9DC33C5E27E5FB270043C9DB = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
-					9DF55C3827DBACB70071EFC0 = {
+					9DC33C6727E5FB270043C9DB = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 9DF55C1427DBA9E20071EFC0;
 					};
 				};
 			};
-			buildConfigurationList = 9DF55C1027DBA9E20071EFC0 /* Build configuration list for PBXProject "SSLPinning" */;
+			buildConfigurationList = 9DC33C5927E5FB270043C9DB /* Build configuration list for PBXProject "SSLPinning" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -176,29 +184,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 9DF55C0C27DBA9E20071EFC0;
-			productRefGroup = 9DF55C1627DBA9E20071EFC0 /* Products */;
+			mainGroup = 9DC33C5527E5FB270043C9DB;
+			productRefGroup = 9DC33C6027E5FB270043C9DB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9DC33CEC27E5FCEE0043C9DB /* Products */;
+					ProjectRef = 9DC33CEB27E5FCEE0043C9DB /* Example.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				9DF55C1427DBA9E20071EFC0 /* SSLPinning */,
-				9DF55C3827DBACB70071EFC0 /* PinningCoreTests */,
+				9DC33C5E27E5FB270043C9DB /* SSLPinning */,
+				9DC33C6727E5FB270043C9DB /* SSLPinningTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		9DC33CF027E5FCEE0043C9DB /* Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Example.app;
+			remoteRef = 9DC33CEF27E5FCEE0043C9DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
-		9DF55C1327DBA9E20071EFC0 /* Resources */ = {
+		9DC33C5D27E5FB270043C9DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DF55C2527DBA9E30071EFC0 /* LaunchScreen.storyboard in Resources */,
-				9DF55C2227DBA9E30071EFC0 /* Assets.xcassets in Resources */,
-				9DF55C2027DBA9E20071EFC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DF55C3727DBACB70071EFC0 /* Resources */ = {
+		9DC33C6627E5FB270043C9DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,54 +229,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9DF55C1127DBA9E20071EFC0 /* Sources */ = {
+		9DC33C5B27E5FB270043C9DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DF55C1D27DBA9E20071EFC0 /* ViewController.swift in Sources */,
-				9DF55C1927DBA9E20071EFC0 /* AppDelegate.swift in Sources */,
-				9DF55C1B27DBA9E20071EFC0 /* SceneDelegate.swift in Sources */,
+				9DC33CF227E5FD040043C9DB /* TestFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DF55C3527DBACB70071EFC0 /* Sources */ = {
+		9DC33C6427E5FB270043C9DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC33C6E27E5FB270043C9DB /* SSLPinningTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9DF55C3E27DBACB70071EFC0 /* PBXTargetDependency */ = {
+		9DC33C6B27E5FB270043C9DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9DF55C1427DBA9E20071EFC0 /* SSLPinning */;
-			targetProxy = 9DF55C3D27DBACB70071EFC0 /* PBXContainerItemProxy */;
+			target = 9DC33C5E27E5FB270043C9DB /* SSLPinning */;
+			targetProxy = 9DC33C6A27E5FB270043C9DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		9DF55C1E27DBA9E20071EFC0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DF55C1F27DBA9E20071EFC0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9DF55C2327DBA9E30071EFC0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DF55C2427DBA9E30071EFC0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		9DF55C2727DBA9E30071EFC0 /* Debug */ = {
+		9DC33C7127E5FB270043C9DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,6 +290,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -306,17 +308,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9DF55C2827DBA9E30071EFC0 /* Release */ = {
+		9DC33C7227E5FB270043C9DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,6 +354,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -361,129 +366,138 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		9DF55C2A27DBA9E30071EFC0 /* Debug */ = {
+		9DC33C7427E5FB270043C9DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 297646QN2B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SSLPinning/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = bn.software.com.SSLPinning;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		9DF55C2B27DBA9E30071EFC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 297646QN2B;
-				INFOPLIST_FILE = SSLPinning/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = bn.software.com.SSLPinning;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		9DF55C4D27DBACB70071EFC0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 297646QN2B;
-				INFOPLIST_FILE = PinningCoreTests/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bn.software.com.PinningCoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = bn.software.com.SSLPinning;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLPinning.app/SSLPinning";
 			};
 			name = Debug;
 		};
-		9DF55C4E27DBACB70071EFC0 /* Release */ = {
+		9DC33C7527E5FB270043C9DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 297646QN2B;
-				INFOPLIST_FILE = PinningCoreTests/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SSLPinning/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bn.software.com.PinningCoreTests;
+				PRODUCT_BUNDLE_IDENTIFIER = bn.software.com.SSLPinning;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DC33C7727E5FB270043C9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 297646QN2B;
+				INFOPLIST_FILE = SSLPinningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bn.software.com.SSLPinningTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLPinning.app/SSLPinning";
+			};
+			name = Debug;
+		};
+		9DC33C7827E5FB270043C9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 297646QN2B;
+				INFOPLIST_FILE = SSLPinningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bn.software.com.SSLPinningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DF55C1027DBA9E20071EFC0 /* Build configuration list for PBXProject "SSLPinning" */ = {
+		9DC33C5927E5FB270043C9DB /* Build configuration list for PBXProject "SSLPinning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DF55C2727DBA9E30071EFC0 /* Debug */,
-				9DF55C2827DBA9E30071EFC0 /* Release */,
+				9DC33C7127E5FB270043C9DB /* Debug */,
+				9DC33C7227E5FB270043C9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DF55C2927DBA9E30071EFC0 /* Build configuration list for PBXNativeTarget "SSLPinning" */ = {
+		9DC33C7327E5FB270043C9DB /* Build configuration list for PBXNativeTarget "SSLPinning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DF55C2A27DBA9E30071EFC0 /* Debug */,
-				9DF55C2B27DBA9E30071EFC0 /* Release */,
+				9DC33C7427E5FB270043C9DB /* Debug */,
+				9DC33C7527E5FB270043C9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DF55C4C27DBACB70071EFC0 /* Build configuration list for PBXNativeTarget "PinningCoreTests" */ = {
+		9DC33C7627E5FB270043C9DB /* Build configuration list for PBXNativeTarget "SSLPinningTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DF55C4D27DBACB70071EFC0 /* Debug */,
-				9DF55C4E27DBACB70071EFC0 /* Release */,
+				9DC33C7727E5FB270043C9DB /* Debug */,
+				9DC33C7827E5FB270043C9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9DF55C0D27DBA9E20071EFC0 /* Project object */;
+	rootObject = 9DC33C5627E5FB270043C9DB /* Project object */;
 }

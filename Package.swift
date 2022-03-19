@@ -9,6 +9,6 @@ let package = Package(
     ],
 
     targets: [
-        .target(name: "SSLPinning", path: "Sources", exclude: ["Info.plist", "PinningCore.h"]),
+        .target(name: "SSLPinning", path: "SSLPinning", exclude: ["Info.plist", "PinningCore.h"]),
     ]
 )
